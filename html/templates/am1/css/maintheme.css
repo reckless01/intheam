@@ -5,7 +5,6 @@ body {
 * {
   border-radius: 0 !important;
 }
-
 #navbar {
   padding-bottom: 5px;
 }
@@ -24,22 +23,23 @@ body {
 }
 
 #jumbo img {
-  height: 90%;
+  height: 95%;
   width: 99%;
 }
 
 .jumbotron {
   background-color: #999999;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 #bio {
-  margin-top: -20px;
+  margin-top: -24px;
   padding-left: 75px;
   padding-bottom: 25px;
+
 }
 #bio p {
-  padding-top: 10px;
+
 }
 #booking {
   text-align: center;
@@ -79,13 +79,20 @@ input[type=submit]:hover {
 #form_name label {
   padding-top: -40px !important;
 }
-#imgfill img {
-  height: 350px;
-  width: 350px;
-  margin-right: 10px;
-  margin-left: 100px;
-}
-#imgfill {
-  padding-top: 30px;
+.full-width-row {
+  overflow-x: hidden;
+  padding-top: 25px;
   border-top: 2px red solid;
+  background-color: #fff;
+}
+.full-width-row > div{
+
+}
+.full-width-row img {
+  height: 460px;
+  width: 486px;
+}
+#imgfill1 {
+  margin-left: 60px;
+  padding-left: 10px;
 }

@@ -33,7 +33,7 @@
 
 
         <div id="jumbo" class="jumbotron">
-          <img id="jumboimg" src="<?php echo $this->beaseurl ?>/images/am-img/lg/IMG_0105.jpg">
+          <img id="jumboimg" src="<?php echo $this->beaseurl ?>/images/am-img/lg/full-bandstage.JPG">
 
         </div>
 
@@ -97,18 +97,19 @@
               </div>
             </div>
             <div id="bioimg" class="col-lg-6">
-              <img src="<?php echo $this->baseurl ?>/images/am-img/lg/IMG_0111.jpg">
+              <img src="<?php echo $this->baseurl ?>/images/am-img/lg/band-photo3-tall.jpg">
 
             </div>
           </div>
-        <div id="imgfill" class="row">
-          <div class="col-lg-6">
-            <img src="<?php echo $this->baseurl ?>/images/am-img/a/IMG_0102.jpg">
+        <div class="row full-width-row">
+          <div>
+            <div class="col-lg-6">
+              <img id="imgfill1" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar-p.jpg">
+            </div>
+            <div class="col-lg-6">
+              <img id="imgfill2" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar.jpg">
+            </div>
           </div>
-          <div class="col-lg-6">
-            <img src="<?php echo $this->baseurl ?>/images/am-img/a/IMG_0061.jpg">
-          </div>
-
         </div>
 
 
@@ -141,7 +142,18 @@
           </div>
 
         </div>
-      </div>
+
+        <div class="footer">
+          <div id="full-width-row" class="row">
+            <div>
+              <div id="social-footer" class="col-lg-12">
+              </div>
+
+              <div id="footer" class="col-lg-12">
+              </div>
+            </div>
+          </div>
+        </div>
 
     </body>
 </html>
