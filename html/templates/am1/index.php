@@ -8,36 +8,86 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <!-- bootstrap default theme -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-     <!-- custom -->
-     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/maintheme.css" type="text/css" />
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- custom -->
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/maintheme.css"/>
    </head>
+
+
     <body>
-      <!-- main container -->
-      <div class='main_container'>
-        <!-- header -->
-        <div class='header'>Header</div>
-          <!-- mid container - includes main content area and right sidebar -->
-          <div class='mid_container'>
-            <!-- main content area -->
-            <div class='main_content_area'>
-              <jdoc:include type="modules" name="position-3" style="xhtml" />
-              <jdoc:include type="message" />
-              <jdoc:include type="component" />
-              <jdoc:include type="modules" name="position-2" style="none" />
-            </div>
-            <!-- right sidebar -->
-            <div style='clear:both;'></div>
+
+
+
+        <div id="navbar" class="row">
+          <div id="logo" class="col-lg-1">
+            <img id="logoam" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
+
           </div>
-          <!-- footer -->
-          <div class='footer'>
-            Footer
+          <div id="social" class="col-lg-11">
+            <img id="socialimg" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/hamburger_BnW.svg">
+
+          </div>
+
+
+        <div id="jumbo" class="jumbotron">
+          <img id="jumboimg" src="<?php echo $this->beaseurl ?>/images/am-img/lg/IMG_0105.jpg">
+
         </div>
+
+
+        <div class="row">
+          <div class="col-lg-6">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+
+        </div>
+
+
+        <div class id="footer" class="row">
+          <div class="col-lg-6">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+
+        </div>
+
       </div>
-
-
-
-
-
-
     </body>
 </html>
