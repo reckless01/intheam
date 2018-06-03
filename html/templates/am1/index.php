@@ -11,29 +11,33 @@
      <!-- custom -->
      <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/maintheme.css" type="text/css" />
    </head>
-   <body>
-     <div class="container">
-       <div id="nav" class="row">
-         <div id="logo" class="col-md-1">
-             <img src="/images/logo/logo-1-06.png"/>
-         </div>
-         <div class="col-md-11">
-           <div id="navbar">
-             <img class="social-img" src="/images/logo/social/ig-color.svg"/>
-             <img class="social-img" src="/images/logo/social/spot-color.svg"/>
-             <img class="social-img" src="/images/logo/social/sc-bnw.svg"/>
-             <a href="#">About</a>
-             <a href="#">Contact</a>
-             <a href="#">Social</a>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="container">
-       <div id="jumbo" class="jumbotron">
-         <img src="/images/lg/IMG_0111.jpg"
-       </div>
-     </div>
-     Hello world
-   </body>
+    <body>
+      <!-- main container -->
+      <div class='main_container'>
+        <!-- header -->
+        <div class='header'>Header</div>
+          <!-- mid container - includes main content area and right sidebar -->
+          <div class='mid_container'>
+            <!-- main content area -->
+            <div class='main_content_area'>
+              <jdoc:include type="modules" name="position-3" style="xhtml" />
+              <jdoc:include type="message" />
+              <jdoc:include type="component" />
+              <jdoc:include type="modules" name="position-2" style="none" />
+            </div>
+            <!-- right sidebar -->
+            <div style='clear:both;'></div>
+          </div>
+          <!-- footer -->
+          <div class='footer'>
+            Footer
+        </div>
+      </div>
+
+
+
+
+
+
+    </body>
 </html>

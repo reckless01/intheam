@@ -1,49 +1,26 @@
+
+.main_container {
+    width:940px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.mid_container {
+    margin:20px 0px;
+}
+.main_content_area {
+    float:left;
+    width:700px;
+}
+.right_sidebar {
+    float:right;
+    width: 220px;
+}
+.main_content_area,
+.right_sidebar,
+.footer,
+.header {
+    border:1px solid #bbb;
+}
 body {
-  background-color: #404040;
-  font-size: 48px;
-  text-align: center;
-}
-#nav {
-  background-color: #404040;
-  overflow: hidden;
-  font-size: 14px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-#logo img {
-  height: 60px;
-  width: 220px;
-  float: left;
-  display: inline;
-}
-#navbar {
-  padding-right: 15px;
-  padding-top: 15px;
-  float: right;
-}
-#navbar a {
-  padding-right: 10px;
-  padding-left: 10px;
-  background-color: #404040;
-  font-size: 22px;
-  color: #fff;
-  text-align: right;
-}
-#navbar a:hover {
-  text-decoration: none;
-}
-#navbar a:active {
-  text-decoration: none;
-}
-#navbar img {
-  width: 26px;
-  height: 26px;
-  padding: 0px 1px 5px 1px;
-}
-.jumbotron {
-  background-color: #404040;
-}
-.jumbotron img {
-  height: 100%;
-  width: 100%;
+  background-color: grey;
 }
