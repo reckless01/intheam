@@ -1,5 +1,5 @@
 body {
-  background-color: #999999;
+  background-color: #353130;
 }
 
 * {
@@ -28,36 +28,41 @@ body {
 }
 
 .jumbotron {
-  background-color: #999999;
+  background-color: #353130;
   padding-top: 55px;
   padding-bottom: 55px;
 }
+
 #bio {
   margin-top: -24px;
   padding-left: 75px;
   padding-bottom: 25px;
-
+  color: #fff;
 }
-#bio p {
 
-}
 #booking {
   text-align: center;
   text-decoration: underline;
 }
+
 #bioimg img {
   height: 500px;;
   width: 485px;
 }
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
+  border: 1px solid transparent; /* Gray border */
+  border-bottom: 1px solid #000;
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical /* Allow the user to vertically resize the textarea */
-  border-bottom: 2px solid red;
+ /* Allow the user to vertically resize the textarea */
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  color: #fff;
 }
+
 input[type=submit] {
   padding: 12px 20px;
   width: 100%;
@@ -67,32 +72,62 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   background-color: transparent;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #c06014;
 }
+
 #text-muted p {
   padding-top: 10px;
   text-align: center;
 }
+
 input[type=submit]:hover {
   color: #fff;
 }
+
 #form_name label {
   padding-top: -40px !important;
+  border-bottom: 1px #fff;
+}
+#form_email {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  box-shadow: transparent;
+}
+#form_message {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #fff;
 }
 .full-width-row {
   overflow-x: hidden;
   padding-top: 25px;
-  border-top: 2px red solid;
+  padding-bottom: 25px;
+  border-top: 2px #c06014 solid;
   background-color: #fff;
 }
+
 .full-width-row > div{
 
 }
+
 .full-width-row img {
   height: 460px;
   width: 486px;
 }
+
 #imgfill1 {
   margin-left: 60px;
   padding-left: 10px;
+}
+
+#social-footer {
+  text-align: center;
+  padding: 25px 10px 5px 10px;
+}
+
+#social-footer img {
+  height: 28px;
+  width: 28px;
 }

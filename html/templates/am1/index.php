@@ -21,12 +21,12 @@
 
       <div class="container">
         <div id="navbar" class="row">
-          <div id="logo" class="col-lg-1">
+          <div id="logo" class="col-md-1">
             <img id="logoam" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
 
           </div>
-          <div id="social" class="col-lg-11">
-            <img id="socialimg" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/hamburger_BnW.svg">
+          <div id="social" class="col-md-11">
+            <img id="socialimg" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/ham_bnw.png">
 
           </div>
         </div>
@@ -39,7 +39,7 @@
 
 
         <div class="row">
-          <div id="bio" class="col-lg-6">
+          <div id="bio" class="col-md-6">
             <h2> BIO </h2>
               <p>
                 Hard Rock/Alternative Meta band based in Indianapolis, Indiana. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, Zach Rayburn.
@@ -96,17 +96,17 @@
                 </form>
               </div>
             </div>
-            <div id="bioimg" class="col-lg-6">
+            <div id="bioimg" class="col-md-6">
               <img src="<?php echo $this->baseurl ?>/images/am-img/lg/band-photo3-tall.jpg">
 
             </div>
           </div>
         <div class="row full-width-row">
           <div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <img id="imgfill1" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar-p.jpg">
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <img id="imgfill2" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar.jpg">
             </div>
           </div>
@@ -114,46 +114,37 @@
 
 
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
           </div>
 
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
           </div>
-          <div class="col-lg-6">
-
-          </div>
-
-        </div>
-
-
-        <div class id="footer" class="row">
-          <div class="col-lg-6">
-
-          </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
           </div>
 
         </div>
-
-        <div class="footer">
-          <div id="full-width-row" class="row">
+          <div id="footer" class="row">
             <div>
-              <div id="social-footer" class="col-lg-12">
+              <div id="social-footer" class="col-md-12">
+                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/fblogo-black.png"/>
+                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/ig-bnw.png"/>
+                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/yt_icon_mono_light.png"/>
+                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/spot-icon-black.png"/>
               </div>
 
-              <div id="footer" class="col-lg-12">
+              <div id="footer" class="col-md-12">
               </div>
             </div>
           </div>
-        </div>
+      </div>
 
     </body>
 </html>
