@@ -36,6 +36,14 @@ body {
 #bio {
   margin-top: -20px;
   padding-left: 75px;
+  padding-bottom: 25px;
+}
+#bio p {
+  padding-top: 10px;
+}
+#booking {
+  text-align: center;
+  text-decoration: underline;
 }
 #bioimg img {
   height: 500px;;

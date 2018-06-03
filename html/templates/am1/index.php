@@ -44,6 +44,8 @@
               <p>
                 Hard Rock/Alternative Meta band based in Indianapolis, Indiana. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, Zach Rayburn.
               </p>
+              <p id="booking"><strong>For booking: 317.724.0957</strong></p>
+              <p id="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
               <div id="contact">
                 <form id="contact-form" method="post" action="contact.php" role="form">
                   <div class="messages"></div>
@@ -87,9 +89,7 @@
                       </div>
                       <div id="text-muted" class="row">
                           <div class="col-md-12">
-                              <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                              <p class="booking"><strong>For booking: 317.724.0957</strong></p>
-                              <p class="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
+                              <p id="text-muted"><strong>*</strong> These fields are required.</p>
                           </div>
                       </div>
                     </div>
