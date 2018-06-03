@@ -19,8 +19,7 @@
 
     <body>
 
-
-
+      <div class="container">
         <div id="navbar" class="row">
           <div id="logo" class="col-lg-1">
             <img id="logoam" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
@@ -30,6 +29,7 @@
             <img id="socialimg" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/hamburger_BnW.svg">
 
           </div>
+        </div>
 
 
         <div id="jumbo" class="jumbotron">
@@ -39,20 +39,74 @@
 
 
         <div class="row">
-          <div class="col-lg-6">
+          <div id="bio" class="col-lg-6">
+            <h2> BIO </h2>
+              <p>
+                Hard Rock/Alternative Meta band based in Indianapolis, Indiana. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, Zach Rayburn.
+              </p>
+              <div id="contact">
+                <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="messages"></div>
+                    <div class="controls">
 
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_name">Name *</label>
+                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_email">Email *</label>
+                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <textarea id="subject" name="subject" placeholder="Subject:"></textarea>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group">
+                                  <label for="form_message">Message *</label>
+                                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <input type="submit" id="btn-send" value="Send message">
+                          </div>
+                      </div>
+                      <div id="text-muted" class="row">
+                          <div class="col-md-12">
+                              <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                              <p class="booking"><strong>For booking: 317.724.0957</strong></p>
+                              <p class="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
+                          </div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+            <div id="bioimg" class="col-lg-6">
+              <img src="<?php echo $this->baseurl ?>/images/am-img/lg/IMG_0111.jpg">
+
+            </div>
+          </div>
+        <div id="imgfill" class="row">
+          <div class="col-lg-6">
+            <img src="<?php echo $this->baseurl ?>/images/am-img/a/IMG_0102.jpg">
           </div>
           <div class="col-lg-6">
-
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-
-          </div>
-          <div class="col-lg-6">
-
+            <img src="<?php echo $this->baseurl ?>/images/am-img/a/IMG_0061.jpg">
           </div>
 
         </div>
@@ -87,7 +141,7 @@
           </div>
 
         </div>
-
       </div>
+
     </body>
 </html>
