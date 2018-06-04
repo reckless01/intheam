@@ -1,56 +1,71 @@
 body {
-  background-color: #353130;
+    background-color: #353130;
 }
 
 * {
-  border-radius: 0 !important;
-}
-#navbar {
-  padding-bottom: 5px;
+    border-radius: 0 !important;
 }
 
-#logo img {
-  height: 60px;
-  width: 220px;
-  margin-top: 5px;
+.navbar img {
+    height: 35px;
+    width: 35px;
+}
+.navbar #logo-am {
+    height: 60px;
+    width: 220px;
 }
 
-#social img {
-  height: 50px;
-  width: 50px;
-  float: right;
-  margin: 10px 30px 0px 0px;
+#main .jumbotron {
+    padding-right: -15px;
+    padding-left: -15px;
 }
 
-#jumbo img {
-  height: 95%;
-  width: 99%;
+.jumbotron img {
+    height: 100%;
+    width: 100%;
 }
 
-.jumbotron {
-  background-color: #353130;
-  padding-top: 55px;
-  padding-bottom: 55px;
+#bio-section {
+    border: 1px solid red;
+    color: #fff;
 }
 
-#bio {
-  margin-top: -24px;
-  padding-left: 75px;
-  padding-bottom: 25px;
-  color: #fff;
+#bio-img img {
+    height: 500px;
+    width: 100%;
 }
 
-#booking {
+.contact-form {
   text-align: center;
-  text-decoration: underline;
-}
-
-#bioimg img {
-  height: 500px;;
-  width: 485px;
 }
 
 input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid transparent; /* Gray border */
+  border-bottom: 1px solid #000;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+ /* Allow the user to vertically resize the textarea */
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  color: #fff;
+}
+
+input[type=name], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid transparent; /* Gray border */
+  border-bottom: 1px solid #000;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+ /* Allow the user to vertically resize the textarea */
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  color: #fff;
+}
+
+input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid transparent; /* Gray border */
@@ -74,60 +89,23 @@ input[type=submit] {
   background-color: transparent;
   border-bottom: 2px solid #c06014;
 }
-
-#text-muted p {
-  padding-top: 10px;
-  text-align: center;
+#img-fill {
+    padding-top: 15px;
+    border-top: 1px solid red;
+}
+#img-fill img {
+    height: 500px;
+    width: 99%;
 }
 
-input[type=submit]:hover {
-  color: #fff;
+#footer {
+    padding-top: 15px;
 }
-
-#form_name label {
-  padding-top: -40px !important;
-  border-bottom: 1px #fff;
-}
-#form_email {
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #000;
-  color: #fff;
-  box-shadow: transparent;
-}
-#form_message {
-  background-color: transparent;
-  border: 1px solid #000;
-  color: #fff;
-}
-.full-width-row {
-  overflow-x: hidden;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top: 2px #c06014 solid;
-  background-color: #fff;
-}
-
-.full-width-row > div{
-
-}
-
-.full-width-row img {
-  height: 460px;
-  width: 486px;
-}
-
-#imgfill1 {
-  margin-left: 60px;
-  padding-left: 10px;
-}
-
-#social-footer {
-  text-align: center;
-  padding: 25px 10px 5px 10px;
-}
-
-#social-footer img {
-  height: 28px;
+#footer img {
   width: 28px;
+  height: 25px;
+}
+#footer-copy {
+    color: #fff;
+    padding: 25px 40px 0px 25px;
 }

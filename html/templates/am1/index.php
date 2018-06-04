@@ -1,9 +1,9 @@
-<?php defined( '_JEXEC' ) or die( 'Restricted access' );
-?>
+<?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- bootstrap3.3.7 -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <!-- bootstrap default theme -->
@@ -17,134 +17,86 @@
    </head>
 
 
-    <body>
-
-      <div class="container">
-        <div id="navbar" class="row">
-          <div id="logo" class="col-md-1">
-            <img id="logoam" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
-
-          </div>
-          <div id="social" class="col-md-11">
-            <img id="socialimg" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/ham_bnw.png">
-
-          </div>
+   <body>
+    <div class="container text-center">
+      <div id="navbar" class="row">
+        <div class="col-md-12 navbar navbar-expand-lg">
+          <img id="logo-am" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
+          <img id="ham-img" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/ham_bnw.png">
+          <!-- logo goes here -->
+          <!-- hamburger goes here -->
         </div>
+      </div>
+    </div>
 
 
-        <div id="jumbo" class="jumbotron">
-          <img id="jumboimg" src="<?php echo $this->beaseurl ?>/images/am-img/lg/full-bandstage.JPG">
+    <div id="main" class="container">
 
-        </div>
-
-
-        <div class="row">
-          <div id="bio" class="col-md-6">
-            <h2> BIO </h2>
-              <p>
-                Hard Rock/Alternative Meta band based in Indianapolis, Indiana. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, Zach Rayburn.
-              </p>
-              <p id="booking"><strong>For booking: 317.724.0957</strong></p>
-              <p id="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
-              <div id="contact">
-                <form id="contact-form" method="post" action="contact.php" role="form">
-                  <div class="messages"></div>
-                    <div class="controls">
-
-                      <div class="row">
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_name">Name *</label>
-                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
-                                  <div class="help-block with-errors"></div>
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_email">Email *</label>
-                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
-                                  <div class="help-block with-errors"></div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-12">
-                              <div class="form-group">
-                                <label for="subject">Subject *</label>
-                                <textarea id="subject" name="subject" placeholder="Subject:"></textarea>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-12">
-                              <div class="form-group">
-                                  <label for="form_message">Message *</label>
-                                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                  <div class="help-block with-errors"></div>
-                              </div>
-                          </div>
-                          <div class="col-md-12">
-                              <input type="submit" id="btn-send" value="Send message">
-                          </div>
-                      </div>
-                      <div id="text-muted" class="row">
-                          <div class="col-md-12">
-                              <p id="text-muted"><strong>*</strong> These fields are required.</p>
-                          </div>
-                      </div>
-                    </div>
-                </form>
-              </div>
-            </div>
-            <div id="bioimg" class="col-md-6">
-              <img src="<?php echo $this->baseurl ?>/images/am-img/lg/band-photo3-tall.jpg">
-
-            </div>
-          </div>
-        <div class="row full-width-row">
-          <div>
-            <div class="col-md-6">
-              <img id="imgfill1" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar-p.jpg">
-            </div>
-            <div class="col-md-6">
-              <img id="imgfill2" src="<?php echo $this->baseurl ?>/images/am-img/a/a-guitar.jpg">
-            </div>
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-6">
-
-          </div>
-          <div class="col-md-6">
-
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-
-          </div>
-          <div class="col-md-6">
-
-          </div>
-
-        </div>
-          <div id="footer" class="row">
-            <div>
-              <div id="social-footer" class="col-md-12">
-                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/fblogo-black.png"/>
-                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/ig-bnw.png"/>
-                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/yt_icon_mono_light.png"/>
-                <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/spot-icon-black.png"/>
-              </div>
-
-              <div id="footer" class="col-md-12">
-              </div>
-            </div>
-          </div>
+      <div class="jumbotron">
+        <img id="jumboimg" src="<?php echo $this->beaseurl ?>/images/am-img/lg/full-bandstage.JPG">
       </div>
 
-    </body>
-</html>
+
+      <div id="bio-section" class="row">
+        <div id="bio" class="col-md-6">
+          <!-- contact form here -->
+          <h2> BIO </h2>
+          <p>
+            Hard Rock/Alternative Metal, based in Indianapolis, IN. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, and Zach Rayburn.
+          </p>
+          <p id="booking"><strong>For booking: 317.724.0957</strong></p>
+          <p id="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Name * </label>
+              <input type="name" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email * </label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject * </label>
+              <input type="text" class="form-control" id="subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message * </label>
+              <input type="text" class="form-control" id="subject">
+            </div>
+            <button id="contact-btn" type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+        <div id="bio-img" class="col-md-6">
+          <!-- bio filler here -->
+          <img src="<?php echo $this->baseurl ?>/images/am-img/lg/band-photo4-color.jpg">
+        </div>
+      </div>
+
+
+      <div id="img-fill" class="row">
+        <div class"col-md-12">
+          <!-- social filler, maybe 2 fillers?? -->
+          <img id="img-fill-1" src="<?php echo $this->baseurl ?>/images/am-img/live/d-stage.JPG">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container text-center" id="footer">
+
+      <div class="row" id="footer-social">
+        <!-- social links in footer -->
+        <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/fblogo-black.png"/>
+        <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/ig-bnw.png"/>
+        <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/yt_icon_mono_light.png"/>
+        <img id="footer-img" src="<?php echo $this->baseurl ?>/images/am-img/logo/social/spot-icon-black.png"/>
+      </div>
+
+      <div class="row" id="footer-copy">
+        <!-- copyright goes here -->
+        <?php echo date("Y"); ?> &copy; Alexander Michael
+      </div>
+
+
+    </div>
+   </body>
