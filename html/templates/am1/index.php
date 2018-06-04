@@ -63,7 +63,7 @@
               <label for="message">Message * </label>
               <input type="text" class="form-control" id="subject">
             </div>
-            <button id="contact-btn" type="submit" class="btn btn-default">Submit</button>
+            <button id="contact-btn" type="submit" class="btn">Submit</button>
           </div>
         </div>
         <div id="bio-img" class="col-md-6">
