@@ -100,3 +100,9 @@
 
     </div>
    </body>
+
+   <!-- TODO LIST
+   Build out nav-bar, and hamburger
+   Add news section (hook in joomla)
+   work on responsiveness
+   finish frame -->
