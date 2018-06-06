@@ -12,29 +12,17 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- css for nav menu -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom -->
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/maintheme.css"/>
    </head>
 
 
    <body>
-    <div class="container ">
+    <div class="container text-center">
       <div id="navbar" class="row">
-        <div class="col-md-12 navbar navbar-expand-lg topnav" id="myTopNav">
-          <div class="topnav" id="myTopnav">
-            <img id="logo-am" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
-            <div id="a-text">
-            <a id="nav-txt" href="#home" class="active">Home</a>
-            <a id="nav-txt" href="#news">News</a>
-            <a id="nav-txt" href="#contact">Contact</a>
-            <a id="nav-txt" href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </div>
-          </div>
-
+        <div class="col-md-12 navbar navbar-expand-lg">
+          <img id="logo-am" src="<?php echo $this->baseurl ?>/images/am-img/logo/logo-1-06.png">
+          <img id="ham-img" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/ham_bnw.png">
           <!-- logo goes here -->
           <!-- hamburger goes here -->
         </div>
@@ -56,10 +44,8 @@
           <p>
             Hard Rock/Alternative Metal, based in Indianapolis, IN. Formed in 2018, memebers consist of Alexander Michael, Kerry Mills, Bram Epstein, and Zach Rayburn.
           </p>
-          <br><br>
           <p id="booking"><strong>For booking: 317.724.0957</strong></p>
           <p id="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
-          <br><br>
           <div class="contact-form">
             <div class="form-group">
               <label for="name">Name * </label>
@@ -93,10 +79,6 @@
           <img id="img-fill-1" src="<?php echo $this->baseurl ?>/images/am-img/live/d-stage.JPG">
         </div>
       </div>
-    </div>
-
-    <div class="test1">
-
     </div>
 
 
