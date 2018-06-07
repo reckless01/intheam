@@ -18,11 +18,14 @@ body {
 #main .jumbotron {
     padding-right: -15px;
     padding-left: -15px;
+
 }
+
 
 .jumbotron img {
     height: 100%;
     width: 100%;
+    padding: -48px -60px -48px -60px;
 }
 
 #bio-section {
