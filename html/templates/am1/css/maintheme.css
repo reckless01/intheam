@@ -1,5 +1,13 @@
+/*
+Background color, grey: #353130
+Accent color, orange: #c06014
+font: https://fonts.google.com/specimen/PT+Sans+Narrow
+*/
+
 body {
     background-color: #353130;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
 }
 
 * {
@@ -16,20 +24,24 @@ body {
 }
 
 #main .jumbotron {
-    padding-right: -15px;
-    padding-left: -15px;
-
+  background-color: #e1e1e1;
 }
 
+@media (max-width: 480px) {
+  #main .jumbotron {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
 
 .jumbotron img {
     height: 100%;
     width: 100%;
-    padding: -48px -60px -48px -60px;
+
 }
 
 #bio-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #fff;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -38,10 +50,16 @@ body {
 #bio-img img {
     height: 500px;
     width: 100%;
+    padding-top: 25px;
 }
 
 .contact-form {
   text-align: center;
+}
+
+.form-control:focus {
+  border-color: #c06014;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
 input[type=text], select, textarea {
@@ -113,7 +131,7 @@ input[type=submit] {
 }
 #img-fill {
     padding-top: 15px;
-    border-top: 1px solid red;
+    /* border-top: 1px solid red; */
 }
 #img-fill img {
     height: 6 50px;
@@ -123,11 +141,17 @@ input[type=submit] {
 #footer {
     padding-top: 15px;
 }
+#footer-social .row {
+  padding-bottom: 5px;
+  bottom-border: 1px solid #fff;
+}
 #footer img {
   width: 28px;
   height: 25px;
 }
 #footer-copy {
     color: #fff;
-    padding: 25px 40px 0px 25px;
+    padding: 10px 40px 0px 25px;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
 }

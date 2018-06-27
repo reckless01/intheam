@@ -1,0 +1,96 @@
+[33mcommit 3b62afb0858ac8c448071b97bc689bdcf9310a5a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Thu Jun 7 14:53:06 2018 -0400
+
+    Joomla template edits, module, menu, article adds. Prepping for for full joomla template
+
+[33mcommit 62fdfe9a308bd8258bd2f4d61197432f2eb7fc34[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Wed Jun 6 19:47:27 2018 -0400
+
+    roll back on navmenu
+
+[33mcommit b4971afdb65effd71702ec1db13c12c22abba3af[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Wed Jun 6 19:41:33 2018 -0400
+
+    Started responsive navbar menu
+
+[33mcommit 54d196aa028f3bb042e71c534ee7a10775b4e4a2[m[33m ([m[1;32mnavbar[m[33m)[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Tue Jun 5 15:56:22 2018 -0400
+
+    adjust img-fill demensions, added updated todos
+
+[33mcommit 2fa024b7e682e7ea80f50342e0769b716e3df540[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Mon Jun 4 15:25:28 2018 -0400
+
+    styled contact form
+
+[33mcommit 949d5485e8ace05e3110f56346cd716dd529882b[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Mon Jun 4 15:09:05 2018 -0400
+
+    refactor, index and css. Added new todos
+
+[33mcommit b0a905073a4fc34ecf91be2b51c92129128618bd[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 19:36:01 2018 -0400
+
+    Changed some bootstrap classes, contact form style adjustment, started footer
+
+[33mcommit 68a23c3b47a5b0b94654d1a29116366d163e34f7[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 14:22:49 2018 -0400
+
+    updated imgs, added footer skeleton, messed with imgfill divs
+
+[33mcommit 5098cd38272f720d08996a7c8096cecb438851d8[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 05:51:05 2018 -0400
+
+    adjust contact form content, moved booking paragraphs
+
+[33mcommit 45e1686b3e1e8366adbd6a54c9d4cbdbb5f66064[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 05:42:02 2018 -0400
+
+    Updated theme, styled contact form, added filler images
+
+[33mcommit 8a7755d1a9df5dc872c5b15a434f34c46839d723[m
+Merge: 36a7b62 01a759b
+Author: Unknown <logan.shaner@gmail.com>
+Date:   Sun Jun 3 04:05:37 2018 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 36a7b628c3a37ca430b065d51c918390f1a3e416[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 04:04:53 2018 -0400
+
+    added bootstrap skeleton, added images dir
+
+[33mcommit 01a759b284c7e662e51d1af766b5b404c13b230a[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 04:04:53 2018 -0400
+
+    added bootstrap skeleton, some images
+
+[33mcommit d9960a5f024c8a2e4a9c553726e3328e0ced5acd[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 03:03:36 2018 -0400
+
+    rolled back to default joomla html/css
+
+[33mcommit df3283165a293080b756d50d1ae21695e6c2096b[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 02:45:31 2018 -0400
+
+    Continue install setup
+
+[33mcommit 2d3f5789e851d2206eecf514710ea6223463d741[m
+Author: Logan <logna.shaner@gmail.com>
+Date:   Sun Jun 3 01:47:15 2018 -0400
+
+    initial commit

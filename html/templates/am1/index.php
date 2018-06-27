@@ -4,6 +4,8 @@
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
    <head>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Font: PT Sans Narrow -->
+     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
      <!-- bootstrap3.3.7 -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <!-- bootstrap default theme -->
@@ -46,6 +48,7 @@
           </p>
           <p id="booking"><strong>For booking: 317.724.0957</strong></p>
           <p id="booking"><strong>Email: imalexandermichael@gmail.com</strong></p>
+          <br>
           <div class="contact-form">
             <div class="form-group">
               <label for="name">Name * </label>
@@ -101,8 +104,15 @@
     </div>
    </body>
 
-   <!-- TODO LIST
+   <!--
+   =============== TODO LIST ===============
    Build out nav-bar, and hamburger
    Add news section (hook in joomla)
    work on responsiveness
-   finish frame -->
+   finish frame
+   Font family setup  ***done***
+   Image selection (replace bio img?)
+   ssl cert
+   domain info
+   prep for stage
+ -->
