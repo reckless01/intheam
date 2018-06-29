@@ -27,6 +27,28 @@
           <img id="ham-img" src="<?php echo $this->beaseurl ?>/images/am-img/logo/social/ham_bnw.png">
           <!-- logo goes here -->
           <!-- hamburger goes here -->
+
+
+          <!-- Nav menu testing stuff, DO NOT delete
+          <nav role="navigation">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+              <ul id="ham-menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Booking</li></a>
+                <a href="#"><li>Shop</li></a>
+                <a href="#"><li>Social</li></a>
+              </ul>
+            </div>
+          </nav>
+        -->
+
+
         </div>
       </div>
     </div>
