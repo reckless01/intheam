@@ -99,12 +99,24 @@
 
 
       <div id="img-fill" class="row">
-        <div class"col-md-12">
+        <div class="col-md-12">
           <!-- social filler, maybe 2 fillers?? -->
           <img id="img-fill-1" src="<?php echo $this->baseurl ?>/images/am-img/live/d-stage.JPG">
         </div>
       </div>
+
+
+
+    <div id="press-section" class="row">
+      <jdoc:include type="modules" name="am-anthem-news"   />
+      <div id="press-detail" class="col-md-12">
+
+      </div>
+
+
+
     </div>
+  </div>
 
 
     <div class="container text-center" id="footer">
